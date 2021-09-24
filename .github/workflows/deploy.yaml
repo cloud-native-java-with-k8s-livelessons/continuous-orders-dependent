@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Respond to Event
-        run: cd $GITHUB_WORKSPACE/.github/workflows && echo "hello, world."
+        run: echo "hello, world."
